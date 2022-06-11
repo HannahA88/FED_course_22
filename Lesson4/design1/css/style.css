@@ -112,11 +112,11 @@ input[type="password" i], input[type=text i] {
 }
 
 .footer {
-display: flex;
-list-style: none;
-justify-content: center;
-
+    display: flex;
+    list-style: none;
+    justify-content: center;
 }
+
 .paslabel {
     display: flex;
     justify-content: space-between;
