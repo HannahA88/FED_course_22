@@ -1,0 +1,12 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+    text-align: center;  
+    margin: auto; 
+    
+}
+.footer {
+    display: inline;
+}
