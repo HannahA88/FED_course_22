@@ -1,12 +1,26 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    height: 70vh;
+    width: 50vw;
+    margin: 15% auto auto auto;
+    text-align: center;
 }
 
-.main-container {
+.main__container {
     text-align: center;  
     margin: auto; 
-    
+    width: 50%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
 }
-.footer {
-    display: inline;
+
+/*
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 35px;
+    width: 75%;
 }
+*/
