@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 96vw;
+    height: 100vh;
+    background-color: deepskyblue;
+    text-align: center;
+    padding: 25% 2vw;
+}
+
+.web__media-content {
+    width: 35%;
+    float: left;
+}
+
+.web__text-content {
+    width: 55%;
+    float: right;
+}
+
+.web__text-content_one {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px #3333338c;
+}
+
+.web__text-content_two {
+    color: darkblue;
+    display: block;
+    font-size: 48px;
+    text-shadow: 2px 2px #3333338c;
+}
+
+.web__text-content_three {
+    color: darkblue;
+    display: block;
+    font-size: 48px;
+    text-shadow: 2px 2px #3333338c;
+}
+
+.web__text-content_btn {
+
+}
+
