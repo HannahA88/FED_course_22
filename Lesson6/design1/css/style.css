@@ -4,10 +4,12 @@ body {
 
 .main {
     width: 96vw;
-    height: 100vh;
+    height: 70vh;
     background-color: deepskyblue;
     text-align: center;
-    padding: 25% 2vw;
+    padding: 30vh 2vw;
+    padding-bottom: 0%;
+    overflow-y: none;
 }
 
 .web__media-content {
@@ -42,6 +44,10 @@ body {
 }
 
 .web__text-content_btn {
-
+    background-color: darkblue;
+    color: #fff;
+    height: 45px;
+    padding-top: 5px;
+    padding-bottom: 30px;
 }
 
