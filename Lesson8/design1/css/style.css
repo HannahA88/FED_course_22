@@ -1,6 +1,6 @@
 body {
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
     background-color: #F2F2F2;
 }
 
@@ -11,11 +11,12 @@ header {
 .header__logo {
     width: 25%;
     float: left;
+    padding-left: 4%;
 }
 
 .header__menue {
     width: 60%;
-    float: right;
+    float: right;  
 }
 
 .menue__links{
@@ -83,19 +84,28 @@ header {
     left: 159px;
     top: 241px;
     color: #2F281E;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.header__main-content__info__text p, h1 {
+    margin-bottom: 25px;
 }
 
 .head {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    line-height: 15px;
 }
 
-/*.discription {
-   
+.discription {
+   line-height: 5px;
 }
-*/
+
 
 .header__main-content__info__btns {
     float: left;
+    padding: 400px 335px 200px 70px;
+    position: absolute;
 }
 .main-content__btn {
     height: 53px;
