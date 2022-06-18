@@ -148,3 +148,44 @@ top: 241px;
 
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 */
+
+.footer__logo {
+    width: 75%;
+    float: left;
+    padding-left: 4%;
+}
+
+.footer__menue {
+    
+}   
+
+.menue__link-main {
+    width: 70px;
+    float: left;
+    padding-left: 20%;
+    
+}
+
+.menue__link-ad {
+    width: 70%;
+    float: left;
+    padding-left: 25%;
+}
+
+.footer__btns {
+    width: 70%;
+    float: right;
+    padding-left: 75%;
+}
+
+.footer__btn-main {
+    float: right;
+    padding-left: 75%;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    width: 175px;
+    height: 53px;
+    left: 159px;
+    top: 519px;
+}
