@@ -155,10 +155,10 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     padding-left: 4%;
 }
 
-.footer__menue {
+/*.footer__menue {
     
 }   
-
+*/
 .menue__link-main {
     width: 70px;
     float: left;
@@ -174,18 +174,17 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 .footer__btns {
     width: 70%;
-    float: right;
-    padding-left: 75%;
+    float: left;
+    padding-left: 300px;
 }
 
 .footer__btn-main {
-    float: right;
-    padding-left: 75%;
+    float: left;
+    padding-left: 3%;
     background-color: #FF9900;
     color: white;
     border: none;
-    width: 175px;
     height: 53px;
-    left: 159px;
-    top: 519px;
+    left: 30px;
+    top: 10px;
 }
