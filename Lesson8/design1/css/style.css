@@ -1,6 +1,7 @@
 body {
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    background-color: #F2F2F2;
 }
 
 header {
@@ -10,11 +11,12 @@ header {
 .header__logo {
     width: 25%;
     float: left;
+    padding-left: 4%;
 }
 
 .header__menue {
     width: 60%;
-    float: right;
+    float: right;  
 }
 
 .menue__links{
@@ -47,4 +49,142 @@ header {
 .btn-alert {
     background-color: #FF9900;
     color: white;
+}
+
+/*.header__main-content {
+    width: 1104px;
+    height: 496px;
+    left: 159px;
+    top: 131px;
+}
+*/
+
+.header__main-content__logo {
+    float: right;
+    width: 605px;
+    height: 496px;
+    left: 658px;
+    top: 131px;
+}
+
+/*.header__main-content__info {
+
+    /*
+    width: 518px;
+    height: 331px;
+    left: 159px;
+    top: 241px;
+}
+*/
+.header__main-content__info__text {
+    float: left;
+    position: absolute;
+    width: 518px;
+    height: 233px;
+    left: 159px;
+    top: 241px;
+    color: #2F281E;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.header__main-content__info__text p, h1 {
+    margin-bottom: 25px;
+}
+
+.head {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 15px;
+    font-size: 44px;
+}
+
+.discription {
+   line-height: 5px;
+   font-size: 16px;
+}
+
+
+.header__main-content__info__btns {
+    float: left;
+    padding: 400px 335px 200px 70px;
+    position: absolute;
+}
+.main-content__btn {
+    height: 53px;
+    width: 366px;
+    left: 159px;
+    top: 519px;
+}
+
+.btn-main {
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    width: 175px;
+    height: 53px;
+    left: 159px;
+    top: 519px;
+}
+.btn-video {
+    color: #F2F2F2;
+    background-color: #F2F2F2;
+    border: none;
+    width: 161px;
+    height: 23px;
+    left: 364px;
+    top: 534px;
+}
+.btn-video a {
+    color: #FF9900;
+}
+
+/* Left side 
+
+position: absolute;
+width: 518px;
+height: 331px;
+left: 159px;
+top: 241px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+*/
+
+.footer__logo {
+    width: 75%;
+    float: left;
+    padding-left: 4%;
+}
+
+/*.footer__menue {
+    
+}   
+*/
+.menue__link-main {
+    width: 70px;
+    float: left;
+    padding-left: 20%;
+    
+}
+
+.menue__link-ad {
+    width: 70%;
+    float: left;
+    padding-left: 25%;
+}
+
+.footer__btns {
+    width: 70%;
+    float: left;
+    padding-left: 300px;
+}
+
+.footer__btn-main {
+    float: left;
+    padding-left: 3%;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    height: 53px;
+    left: 30px;
+    top: 10px;
 }
