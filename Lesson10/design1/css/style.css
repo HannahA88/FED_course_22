@@ -5,7 +5,7 @@ body{
 .main {
     width: 93vw;
     height: 100vh;
-    background: url('./111.png');
+    background: url('./111.png') rgba(31, 2, 144, 0.6);
     background-size:cover;
     background-blend-mode: multiply;
     background-position: center;
