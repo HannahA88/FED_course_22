@@ -5,14 +5,16 @@ body{
 .main {
     width: 93vw;
     height: 100vh;
-    background: url('stephen-leonardi-Al9Cl-b7EFU-unsplash.png') rgba(31, 2, 144, 0.6);
+    /*background: url('stephen-leonardi-Al9Cl-b7EFU-unsplash.png') ;*/
+    background-image: url("stephen-leonardi-Al9Cl-b7EFU-unsplash 1.png");
+    background-color: rgba(31, 2, 144, 0.6);
     background-size:cover;
     background-blend-mode: multiply;
     background-position: center;
     background-attachment: fixed;
     padding: 3.5vw;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
 }
 
 .manu {
