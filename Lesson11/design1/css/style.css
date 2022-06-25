@@ -44,15 +44,6 @@ body {
     margin: 0 auto;
 }
 
-.section {
-    padding-block: 100px;
-}
-
-.img {
-    display: block;
-    max-width: 100%;
-}
-
 .navigation {
     padding: 1.5rem 0;
     display: flex;
@@ -65,7 +56,32 @@ body {
 .navigation__link {
     text-decoration: none;
     text-transform: capitalize;
-    color: #2F281E;
+    color: #7D8790;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.navigation__link--orange {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ED9B59;
+}
+.orange {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 690px;
+    top: 90px;
 }
 
 .navigation__list {
@@ -77,6 +93,7 @@ body {
 .navigation__item {
     display: inline-block;
     margin-inline: 0.9rem;
+    color: #7D8790;
 }
 
 .navigation__btns {
@@ -110,42 +127,60 @@ body {
     line-height: 20px;
     text-align: center;
     color: #F4EBE6;
+    border-radius: 40%;
 }
 
 .btn--big {
     padding: 15px 41px;
 }
 
+
+
+/* Header section */
 .header {
     display: flex;
     justify-content: space-between;
 }
 
-.header__text {
-    max-width: 400px;
-    font-size: 18px;
-}
+ .header__title {
+    font-size: 36px;
+    font-weight: bold;
+ }
 
-.header__title {
-    margin-top: 98px;
+ .header__title--light {
     font-family: 'Google Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 58px;
-    line-height: 101.8%;
-    letter-spacing: -0.01em;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ED9B59;
+ }
+
+ .header__content {
+    max-width: 400px;
+ }
+
+.header__text {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
     color: #1A1D32;
+    opacity: 0.7;
 }
-.line-one {
+
+ .line-one {
     color: #ED9B59;
 }
 
-.header__btns {
-    margin-top: 50px;
+.header__title-main {
+    color: #1A1D32;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 101.8%;
+    letter-spacing: -0.01em;
 }
 
-.header__link {
-    margin-left: 30px;
-    color: #FF9900;
-    display: inline-block
-}
