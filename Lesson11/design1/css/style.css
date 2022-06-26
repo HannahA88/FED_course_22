@@ -132,10 +132,6 @@ body {
     border-radius: 40px;
 }
 
-.btn--big {
-    padding: 15px 41px;
-}
-
 
 /* Header section */
 .header {
@@ -171,7 +167,7 @@ body {
     opacity: 0.7;
 }
 
- .line-one {
+.line-one {
     color: #ED9B59;
 }
 
@@ -207,11 +203,24 @@ form {
     line-height: 20px;
     color: #1A1D32;
     opacity: 0.3;
+    margin-left: 40px;
 }
 
 .email__btn {
     background: #ED9B59;
     box-shadow: 0px 100px 161px rgba(245, 155, 90, 0.08), 0px 64.8148px 94.2894px rgba(245, 155, 90, 0.0607407), 0px 38.5185px 51.2815px rgba(245, 155, 90, 0.0485926), 0px 20px 26.1625px rgba(245, 155, 90, 0.04), 0px 8.14815px 13.1185px rgba(245, 155, 90, 0.0314074), 0px 1.85185px 6.33565px rgba(245, 155, 90, 0.0192593);
     border-radius: 40px;
+    margin-left: 70px;
+    margin-top: 20px;
+    background-color: #ED9B59;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #F4EBE6;
+    position: absolute; 
+    border: none;
 }
 
