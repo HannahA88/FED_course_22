@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 3%;
+    background-color: #fff;
+}
+
+.input__1 {
+    float: right;
+    position: absolute;
+    left: 230px;
+    top: 108px;
+    color: lightslategray;
+}
+
+.input__2 {
+    float: right;
+    position: absolute;
+    left: 230px;
+    top: 159px;
+}
+
+.input__3{
+    float: right;
+    position: absolute;
+    left: 230px;
+    top: 205px;
+}
+
+.input__4 {
+    float: right;
+    position: absolute;
+    left: 230px;
+    top: 250px;
+}
+
+.input__5 {
+    float: right;
+    position: absolute;
+    left: 230px;
+    top: 297px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: lightgray;
+    border: none;
+    font-size: 2em;
+    font-weight: 200;
+    height: 55px;
+    width: 163px;
+    margin-top: 3%;
+}
+
+.inputs > input {
+    width: 25%;
+    height: 4.5vh;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+}
