@@ -57,9 +57,15 @@ button {
 }
 
 .inputs > input {
-    width: 25%;
-    height: 4.5vh;
+    width: 12%;
+    height: 4.6vh;
     background-color: lightgray;
     border: none;
     border-radius: 5px;
+    font-size: 2em;
+    font-weight: 140;
+}
+
+.buttons {
+    margin-top: 3%;
 }
