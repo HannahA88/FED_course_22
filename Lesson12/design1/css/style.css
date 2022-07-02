@@ -9,43 +9,43 @@ body {
     background-color: #fff;
 }
 
-.input__1 {
+.input__fname {
     float: right;
     position: absolute;
-    left: 230px;
-    top: 108px;
+    left: 260px;
+    top: 130px;
     color: lightslategray;
 }
 
-.input__2 {
+.input__lname {
     float: right;
     position: absolute;
-    left: 230px;
-    top: 159px;
+    left: 260px;
+    top: 175px;
     color: lightslategray;
 }
 
-.input__3{
+.input__dob {
     float: right;
     position: absolute;
-    left: 230px;
-    top: 205px;
+    left: 260px;
+    top: 220px;
     color: lightslategray;
 }
 
-.input__4 {
+.input__Ei {
     float: right;
     position: absolute;
-    left: 230px;
-    top: 250px;
+    left: 260px;
+    top: 265px;
     color: lightslategray;
 }
 
-.input__5 {
+.input__MN {
     float: right;
     position: absolute;
-    left: 230px;
-    top: 297px;
+    left: 260px;
+    top: 310px;
     color: lightslategray;
 }
 
@@ -62,7 +62,7 @@ button {
 
 .inputs > input {
     width: 12%;
-    height: 4.6vh;
+    height: 3vh;
     background-color: lightgray;
     border: none;
     border-radius: 5px;
