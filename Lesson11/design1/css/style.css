@@ -14,7 +14,6 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
-    opacity: 0.7;
     background-image: url(https://imagizer.imageshack.com/img923/2367/fXXcM0.png);
 }
 
@@ -67,6 +66,7 @@ body {
 }
 
 .navigation__link--orange {
+    position: relative;
     text-decoration: none;
     text-transform: capitalize;
     font-family: 'Google Sans';
@@ -81,8 +81,8 @@ body {
     position: absolute;
     width: 7px;
     height: 7px;
-    left: 650px;
-    top: 70px;
+    left: 10px;
+    top: 10px;
 }
 
 .navigation__list {
@@ -193,10 +193,9 @@ body {
     border-radius: 40px;
     } 
 
-/*    .email__svg {
-    margin-right: 10px;
+.email__svg {
+    
     }
-*/
 
 form { 
     font-family: 'Google Sans';
@@ -213,7 +212,7 @@ form {
     background: #ED9B59;
     box-shadow: 0px 100px 161px rgba(245, 155, 90, 0.08), 0px 64.8148px 94.2894px rgba(245, 155, 90, 0.0607407), 0px 38.5185px 51.2815px rgba(245, 155, 90, 0.0485926), 0px 20px 26.1625px rgba(245, 155, 90, 0.04), 0px 8.14815px 13.1185px rgba(245, 155, 90, 0.0314074), 0px 1.85185px 6.33565px rgba(245, 155, 90, 0.0192593);
     border-radius: 40px;
-    margin-left: 70px;
+    margin-left: 30px;
     margin-top: 16px;
     background-color: #ED9B59;
     font-family: 'Google Sans';
@@ -373,4 +372,8 @@ form {
     top: 326px;
 }
 
+.input {
+    border: none;
+    padding: 15 15 15 15px;
+}
 
