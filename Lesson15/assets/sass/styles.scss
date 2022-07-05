@@ -1,9 +1,12 @@
+@import './constants.scss';
+
 body {
     background-color: red;
 }
 
 .shield {
-    &__search {
-    background-color: blue;
+    &-btn {
+    background-color: $secondary;
+    color: $white;
     }
 }
