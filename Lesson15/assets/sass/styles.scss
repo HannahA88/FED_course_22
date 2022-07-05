@@ -1,0 +1,9 @@
+body {
+    background-color: red;
+}
+
+.shield {
+    &__search {
+    background-color: blue;
+    }
+}
