@@ -1,3 +1,10 @@
+body {
+    background-color: red;
+}
+
 .shield {
-    margin: 0;
+    &-btn {
+    background-color: $secondary;
+    color: $white;
+}
 }
