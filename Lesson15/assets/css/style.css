@@ -3,6 +3,111 @@ body {
   margin: 0;
 }
 
+.shield-navigation {
+  position: absolute;
+  width: 1282px;
+  height: 49px;
+  left: 224px;
+  top: 30px;
+}
+.shield-logo {
+  position: absolute;
+  width: 195px;
+  height: 49px;
+  left: 224px;
+  top: 30px;
+}
+.shield-navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  position: absolute;
+  width: 401px;
+  height: 24px;
+  left: 945px;
+  top: 42px;
+}
+.shield-navigation__item {
+  width: 48px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  /* Primary */
+  color: #03045E;
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+}
+.shield-navigation__link-h {
+  width: 48px;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+.shield-navigation__link-a {
+  width: 73px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+.shield-navigation__link-s {
+  width: 70px;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+.shield-navigation__link-c {
+  width: 90px;
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+.shield-navigation__btn {
+  position: absolute;
+  width: 1282px;
+  height: 49px;
+  left: 224px;
+  top: 30px;
+}
+.shield-btn--blue {
+  width: 50px;
+  height: 27px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+}
 .shield h1 {
   font-size: 48px;
   font-family: "Ubuntu", sans-serif;
