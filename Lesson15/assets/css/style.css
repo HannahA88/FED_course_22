@@ -3,21 +3,34 @@ body {
   margin: 0;
 }
 
-.shieldnavigation {
-  position: absolute;
-  width: 1282px;
-  height: 49px;
-  left: 224px;
-  top: 30px;
+.shield h1 {
+  font-size: 48px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
 }
-.shieldlogo {
+.shield-btn {
+  background-color: #0098FF;
+  color: #FFFFFF;
+}
+
+.logo {
   position: absolute;
   width: 195px;
   height: 49px;
   left: 224px;
   top: 30px;
 }
-.shieldnavigation__list {
+
+.navigation {
+  position: absolute;
+  width: 1282px;
+  height: 49px;
+  left: 224px;
+  top: 30px;
+}
+.navigation__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,7 +49,7 @@ body {
   left: 945px;
   top: 42px;
 }
-.shieldnavigation__item {
+.navigation__item {
   width: 48px;
   height: 24px;
   font-family: "Poppins";
@@ -57,38 +70,39 @@ body {
   -ms-flex-positive: 0;
       flex-grow: 0;
 }
-.shieldnavigation__link-h {
+.navigation__link-h {
   width: 48px;
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
 }
-.shieldnavigation__link-a {
+.navigation__link-a {
   width: 73px;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
 }
-.shieldnavigation__link-s {
+.navigation__link-s {
   width: 70px;
   -webkit-box-ordinal-group: 4;
       -ms-flex-order: 3;
           order: 3;
 }
-.shieldnavigation__link-c {
+.navigation__link-c {
   width: 90px;
   -webkit-box-ordinal-group: 5;
       -ms-flex-order: 4;
           order: 4;
 }
-.shieldnavigation__btn {
+.navigation__btn {
   position: absolute;
   width: 1282px;
   height: 49px;
   left: 224px;
   top: 30px;
 }
-.shieldbtn--blue {
+
+.btn--blue {
   width: 50px;
   height: 27px;
   font-family: "Poppins";
@@ -107,15 +121,4 @@ body {
           order: 0;
   -ms-flex-positive: 0;
       flex-grow: 0;
-}
-.shield h1 {
-  font-size: 48px;
-  font-family: "Ubuntu", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 55px;
-}
-.shield-btn {
-  background-color: #0098FF;
-  color: #FFFFFF;
 }
