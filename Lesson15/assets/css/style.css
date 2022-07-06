@@ -3,21 +3,21 @@ body {
   margin: 0;
 }
 
-.shield-navigation {
+.shieldnavigation {
   position: absolute;
   width: 1282px;
   height: 49px;
   left: 224px;
   top: 30px;
 }
-.shield-logo {
+.shieldlogo {
   position: absolute;
   width: 195px;
   height: 49px;
   left: 224px;
   top: 30px;
 }
-.shield-navigation__list {
+.shieldnavigation__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,7 +36,7 @@ body {
   left: 945px;
   top: 42px;
 }
-.shield-navigation__item {
+.shieldnavigation__item {
   width: 48px;
   height: 24px;
   font-family: "Poppins";
@@ -57,38 +57,38 @@ body {
   -ms-flex-positive: 0;
       flex-grow: 0;
 }
-.shield-navigation__link-h {
+.shieldnavigation__link-h {
   width: 48px;
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
 }
-.shield-navigation__link-a {
+.shieldnavigation__link-a {
   width: 73px;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
 }
-.shield-navigation__link-s {
+.shieldnavigation__link-s {
   width: 70px;
   -webkit-box-ordinal-group: 4;
       -ms-flex-order: 3;
           order: 3;
 }
-.shield-navigation__link-c {
+.shieldnavigation__link-c {
   width: 90px;
   -webkit-box-ordinal-group: 5;
       -ms-flex-order: 4;
           order: 4;
 }
-.shield-navigation__btn {
+.shieldnavigation__btn {
   position: absolute;
   width: 1282px;
   height: 49px;
   left: 224px;
   top: 30px;
 }
-.shield-btn--blue {
+.shieldbtn--blue {
   width: 50px;
   height: 27px;
   font-family: "Poppins";
