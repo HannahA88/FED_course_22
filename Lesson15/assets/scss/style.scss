@@ -1,10 +1,13 @@
 @import './constants.scss';
 
 body {
-    background-color: red;
+    margin: 0;
 }
 
 .shield {
+    & h1 {
+        @include header1;
+    }
     &-btn {
     background-color: $secondary;
     color: $white;
