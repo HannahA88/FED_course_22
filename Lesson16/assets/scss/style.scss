@@ -1,3 +1,4 @@
+
 body {
     display: flex;
 }
@@ -22,14 +23,14 @@ body {
 
 @media screen and (max-width: 500px) {
     .div1 {
-background-color: blue;
+        order: 3;
     }
+
     .div2 {
-        background-color: green;
+        order: 2;
     }
-    .div3 {
-        background-color: red;
+
+    .div2 {
+        order: 1;
     }
 }
-    
-
