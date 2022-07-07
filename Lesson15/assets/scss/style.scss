@@ -823,7 +823,7 @@ body {
         position: absolute;
         width: 435px;
         height: 46px;
-        left: 646px;
+        left: 800px;
         top: 3600px;
 
         /* h2 */
@@ -844,7 +844,7 @@ body {
         position: absolute;
         width: 407px;
         height: 21px;
-        left: 224px;
+        left: 60px;
         top: 1px;
 
         font-family: 'Poppins';
@@ -858,9 +858,8 @@ body {
 
         /* Primary */
 
-        color: #03045E;
-
-        /*opacity: 0.5;*/
+        background: #F6F6F6;
+       
     }
     &__raw-first-parh {
         position: absolute;
@@ -879,7 +878,6 @@ body {
         /* Primary */
 
         color: #03045E;
-
         opacity: 0.5;
     }
     &__raw-first-h5 {
@@ -930,20 +928,20 @@ body {
         position: absolute;
         width: 406px;
         height: 263px;
-        left: 661px;
-        top: 3000px;
+        left: 130px;
+        top: 1px;
 
         /* gray background */
 
         background: #F6F6F6;
-        /*opacity: 0.4;*/
+       
     }
     &__raw-second-parh {
         position: absolute;
         width: 327px;
         height: 81px;
         left: 703px;
-        top: 2592px;
+        top: 3900px;
 
         font-family: 'Poppins';
         font-style: normal;
@@ -955,13 +953,14 @@ body {
         /* Primary */
 
         color: #03045E;
+        opacity: 0.4;
     }
     &__raw-second-h5 {
         position: absolute;
         width: 120px;
         height: 23px;
         left: 806px;
-        top: 2703px;
+        top: 4000px;
 
         /* h5 */
 
@@ -981,7 +980,7 @@ body {
         width: 407px;
         height: 21px;
         left: 661px;
-        top: 2734px;
+        top: 4050px;
         
         font-family: 'Poppins';
         font-style: normal;
@@ -1003,15 +1002,17 @@ body {
         position: absolute;
         width: 407px;
         height: 263px;
-        left: 1098px;
-        top: 2542px;
+        left: 150px;
+        top: 1px;
+        background: #F6F6F6;
+       
     }
     &__raw-third-parh {
         position: absolute;
         width: 327px;
         height: 81px;
         left: 1138px;
-        top: 2592px;
+        top: 3900px;
 
         font-family: 'Poppins';
         font-style: normal;
@@ -1023,6 +1024,7 @@ body {
         /* Primary */
 
         color: #03045E;
+        opacity: 0.4;
 
         /*opacity: 0.5;*/
     }
@@ -1031,7 +1033,7 @@ body {
         width: 120px;
         height: 23px;
         left: 1242px;
-        top: 2703px;
+        top: 4000px;
 
         /* h5 */
 
@@ -1052,7 +1054,7 @@ body {
         width: 407px;
         height: 21px;
         left: 1098px;
-        top: 2734px;
+        top: 4050px;
 
         font-family: 'Poppins';
         font-style: normal;
@@ -1073,7 +1075,7 @@ body {
         position: absolute;
         width: 100px;
         height: 8px;
-        left: 814px;
-        top: 4300px;
+        left: 950px;
+        top: 4100px;
     }
 }
