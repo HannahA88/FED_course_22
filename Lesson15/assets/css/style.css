@@ -878,3 +878,207 @@ body {
   -ms-flex-positive: 0;
       flex-grow: 0;
 }
+
+.clients__h2 {
+  position: absolute;
+  width: 435px;
+  height: 46px;
+  left: 646px;
+  top: 3600px;
+  /* h2 */
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  /* identical to box height */
+  /* Primary */
+  color: #03045E;
+}
+.clients__raw-first {
+  position: absolute;
+  width: 407px;
+  height: 21px;
+  left: 224px;
+  top: 1px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  /* Primary */
+  color: #03045E;
+  /*opacity: 0.5;*/
+}
+.clients__raw-first-parh {
+  position: absolute;
+  width: 327px;
+  height: 81px;
+  left: 264px;
+  top: 3900px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  /* Primary */
+  color: #03045E;
+  opacity: 0.5;
+}
+.clients__raw-first-h5 {
+  position: absolute;
+  width: 120px;
+  height: 23px;
+  left: 367px;
+  top: 4000px;
+  /* h5 */
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  /* Primary */
+  color: #03045E;
+}
+.clients__raw-first-p {
+  position: absolute;
+  width: 407px;
+  height: 21px;
+  left: 224px;
+  top: 4050px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  /* Primary */
+  color: #03045E;
+  opacity: 0.5;
+}
+.clients__raw-second {
+  position: absolute;
+  width: 406px;
+  height: 263px;
+  left: 661px;
+  top: 3000px;
+  /* gray background */
+  background: #F6F6F6;
+  /*opacity: 0.4;*/
+}
+.clients__raw-second-parh {
+  position: absolute;
+  width: 327px;
+  height: 81px;
+  left: 703px;
+  top: 2592px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  /* Primary */
+  color: #03045E;
+}
+.clients__raw-second-h5 {
+  position: absolute;
+  width: 120px;
+  height: 23px;
+  left: 806px;
+  top: 2703px;
+  /* h5 */
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  /* Primary */
+  color: #03045E;
+}
+.clients__raw-second-p {
+  position: absolute;
+  width: 407px;
+  height: 21px;
+  left: 661px;
+  top: 2734px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  /* Primary */
+  color: #03045E;
+  opacity: 0.5;
+}
+.clients__raw-third {
+  position: absolute;
+  width: 407px;
+  height: 263px;
+  left: 1098px;
+  top: 2542px;
+}
+.clients__raw-third-parh {
+  position: absolute;
+  width: 327px;
+  height: 81px;
+  left: 1138px;
+  top: 2592px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  /* Primary */
+  color: #03045E;
+  /*opacity: 0.5;*/
+}
+.clients__raw-third-h5 {
+  position: absolute;
+  width: 120px;
+  height: 23px;
+  left: 1242px;
+  top: 2703px;
+  /* h5 */
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  /* Primary */
+  color: #03045E;
+}
+.clients__raw-third-p {
+  position: absolute;
+  width: 407px;
+  height: 21px;
+  left: 1098px;
+  top: 2734px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  /* Primary */
+  color: #03045E;
+  opacity: 0.5;
+}
+.clients__img {
+  position: absolute;
+  width: 100px;
+  height: 8px;
+  left: 814px;
+  top: 4300px;
+}
