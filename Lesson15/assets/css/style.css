@@ -11,8 +11,9 @@ body {
   height: 100%;
   left: 0px;
   top: 0px;
-  background: #F7F8FD;
-  /* &-btn {
+  /* background: #F7F8FD;
+
+     /* &-btn {
           background-color: $secondary;
           color: $white;
   } 
@@ -384,7 +385,6 @@ body {
   left: 0px;
   top: 2000px;
   /* gray background */
-  background: #F6F6F6;
   /*opacity: 0.4;*/
 }
 .img__services {
@@ -910,7 +910,6 @@ body {
   /* identical to box height */
   text-align: center;
   /* Primary */
-  background: #F6F6F6;
 }
 .clients__raw-first-parh {
   position: absolute;
@@ -968,7 +967,6 @@ body {
   left: 130px;
   top: 1px;
   /* gray background */
-  background: #F6F6F6;
 }
 .clients__raw-second-parh {
   position: absolute;
@@ -1025,7 +1023,8 @@ body {
   height: 263px;
   left: 150px;
   top: 1px;
-  background: #F6F6F6;
+  /*background: #F6F6F6;
+  */
 }
 .clients__raw-third-parh {
   position: absolute;
@@ -1056,8 +1055,6 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
-  /* identical to box height */
-  /* Primary */
   color: #03045E;
 }
 .clients__raw-third-p {
