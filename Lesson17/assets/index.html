@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Token</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <header class="token-header">
+        <img src="./img/logo.svg" alt="">
+        <ul class="mobile-off token-header__list">
+            <li>Our team</li>
+            <li>Our team</li>
+            <li>Our team</li>
+            <li>Our Team</li>
+        </ul>
+        <div class="mobile-off">
+            <button class="button__login">Login</button>
+            <button class="button__signin">Signin</button>
+        </div>
+        <span class="mobile-on material-symbols-outlined">
+            menu
+        </span>
+
+    </header>
+
     <div class="token-main">
         <div class="token-main__stats">
             <h2>Tknrs Tokenomics and Token Distribution</h2>
@@ -42,7 +60,7 @@
                         </svg>
                 <h5 class="token-main__first-years">Year 1</h5>
                 <h3 class="token-main__first-days">Day 1 - Day 90</h3>
-                <p>10M Tokens/Day <br>(900M Tokens)</p>
+                <p>10M Tokens/Day <br class="token-main__br">(900M Tokens)</p>
                 </a>
             </div>
             <div class="token-main__second">
@@ -64,7 +82,7 @@
                     </svg>     
                     <h5>Year 1</h5>
                 <h3>Day 90 - Day 365</h3>
-                <p>5M Tokens/Day <br>(1375M Tokens)</p>
+                <p>5M Tokens/Day <br class="token-main__br">(1375M Tokens)</p>
                 </a>               
             </div>
             <div class="token-main__third">
@@ -85,7 +103,7 @@
                 </defs>
                 </svg>
                 <h5>Year 2</h5>
-                <p>4M Tokens/Day <br>(1460M Tokens)</p>
+                <p>4M Tokens/Day <br class="token-main__br">(1460M Tokens)</p>
             </a>
         </div>
             <div class="token-main__fourth">
@@ -106,7 +124,7 @@
                 </defs>
                 </svg>
                 <h5>Year 3</h5>
-                <p>3M Tokens/Day <br>(1095M Tokens)</p>
+                <p>3M Tokens/Day <br class="token-main__br">(1095M Tokens)</p>
             </a>
         </div>
             <div class="token-main__fifth">
@@ -127,7 +145,7 @@
                 </defs>
                 </svg>
                 <h5>Year 4</h5>
-                <p>2M Tokens/Day <br>(730M Tokens)</p>
+                <p>2M Tokens/Day <br class="token-main__br">(730M Tokens)</p>
             </a>
         </div>
             <div class="token-main__sixth">
@@ -148,7 +166,7 @@
                 </defs>
                 </svg>
                 <h5>Year 5</h5>
-                <p>1M Tokens/Day <br>(365M Tokens)</p>
+                <p>1M Tokens/Day <br class="token-main__br">(365M Tokens)</p>
             </a>
         </div>
             <div class="token-main__seventh">
@@ -169,7 +187,7 @@
                 </defs>
                 </svg>
                 <h5>Year 6</h5>
-                <p>1M Tokens/Day <br>(365M Tokens)</p>
+                <p>1M Tokens/Day <br class="token-main__br">(365M Tokens)</p>
             </a>
         </div>
             <div class="token-main__eighth">
@@ -190,7 +208,7 @@
                 </defs>
                 </svg>
                 <h5>Year 7</h5>
-                <p>1M Tokens/Day <br>(365M Tokens)</p>
+                <p>1M Tokens/Day <br class="token-main__br">(365M Tokens)</p>
             </a>
         </div>
             <div class="token-main__ninth">
@@ -211,10 +229,26 @@
                 </defs>
                 </svg>
                 <h5>Year 8</h5>
-                <p>1M Tokens/Day <br>(345M Tokens)</p>
+                <p>1M Tokens/Day <br class="token-main__br">(345M Tokens)</p>
             </a>
         </div>
         </div>
     </div>
+<script>
+    function openMenue() {
+        let close = document.getElementsByClassName('close')[0];
+        close.className = "mobile-on material-symbols-outlined close";
+        let menus = document.getElementsByClassName('token-header__list')[0];
+        menus.className = "token-header__list"
+    }
+
+    function closeMenue() {
+        let close = document.getElementsByClassName('close')[0];
+        close.className = "mobile-off material-symbols-outlined close";
+        let menus = document.getElementsByClassName('token-header__list')[0];
+        menus.className = "mobile-off token-header__list"
+    }
+</script>
+
 </body>
 </html>
