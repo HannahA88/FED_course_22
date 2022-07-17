@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
   margin: 0;
 }
@@ -68,6 +69,11 @@ body {
   border: 2px solid #FFFFFF;
   width: 153px;
   height: 53px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .section__one-scr {
   text-align: center;
@@ -91,13 +97,10 @@ body {
   width: 22px;
   height: 24px;
   margin: auto;
-  padding-left: 60%;
-  margin-top: -60%;
 }
 .section__one-text {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 .section__two {
   background-image: url("/Exam1/assets/imgs/backgr2.png");
@@ -274,6 +277,18 @@ body {
   background-color: #232323;
   padding: 20px;
 }
+.section__five-text p::before {
+  content: '"';
+  color: #5474FD;
+  font-size: 65px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  left: -10px;
+  bottom: -33px;
+  font-family: "Roboto", sans-serif;
+}
 
 .search {
   font-family: "Aleo", serif;
@@ -315,6 +330,9 @@ body {
   margin-left: auto;
   margin-right: 15%;
 }
+.navigation__list a {
+  color: #FFFFFF;
+}
 .navigation__item {
   display: inline-block;
   margin-inline: 0.9rem;
@@ -337,9 +355,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 20px;
 }
 .line__img-l {
   -webkit-box-sizing: border-box;
@@ -347,7 +365,7 @@ body {
   position: absolute;
   width: 777px;
   height: 95px;
-  margin-left: 50%;
+  margin-left: 56%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -370,4 +388,11 @@ body {
       align-content: center;
   padding: 10%;
   background: #232323;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footer div {
+  margin: 1% auto -10%;
 }

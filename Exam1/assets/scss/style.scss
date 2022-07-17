@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
     margin: 0;
@@ -62,7 +63,9 @@ body {
         background: #5474FD;
         border: 2px solid #FFFFFF;
         width: 153px;
-        height: 53px;   
+        height: 53px; 
+        align-content: center;  
+        display: flex;
 
     }
     &__one-scr {
@@ -85,11 +88,9 @@ body {
         width: 22px;
         height: 24px;
         margin: auto;
-        padding-left: 60%;
-        margin-top: -60%;
     }
     &__one-text {
-        align-self: center;
+        align-content: center;
     }
     &__two {
         background-image: url("/Exam1/assets/imgs/backgr2.png");
@@ -118,54 +119,51 @@ body {
             align-items: center;
             letter-spacing: 1.6px;
             color: #E8E8E8;
-        }
-        
-}
+        }   
+    }
     &__two-main {
         width: 1024px;
         margin: auto;
         display: flex;
         align-content: center;
-
     }
 
+    &__two-content {
+        width: 50%;
+        display: flex;
+        justify-content: center; 
+        align-content: center; 
+        flex-direction: column;
+        padding-right: 60px;
+    }
 
-        &__two-content {
-            width: 50%;
-            display: flex;
-            justify-content: center; 
-            align-content: center; 
-            flex-direction: column;
-            padding-right: 60px;
-}
-
-        &__two-img {
-            display: flex;
-            justify-content: center; 
-            align-content: center; 
-            width: 40%;  
-            flex-direction: column;
-            & img {
-                width: 350px;
-                height: 220px;
-            }
-            & img+img {
-                margin-left: 150px;
-                margin-top: 10px;
-            }
-}
-            &__two-btn {
-                margin-top: 20px;
-                width: 228px;
-                height: 63px;
-                background: #5474FD;
-                font-family: 'Aleo';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                letter-spacing: 1.2px;
-                text-transform: uppercase;
-                color: #FFFFFF;
+    &__two-img {
+        display: flex;
+        justify-content: center; 
+        align-content: center; 
+        width: 40%;  
+        flex-direction: column;
+        & img {
+            width: 350px;
+            height: 220px;
+        }
+        & img+img {
+            margin-left: 150px;
+            margin-top: 10px;
+        }
+    }
+        &__two-btn {
+            margin-top: 20px;
+            width: 228px;
+            height: 63px;
+            background: #5474FD;
+            font-family: 'Aleo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: #FFFFFF;
 
     }
     &__three {
@@ -244,6 +242,16 @@ body {
     &__five-text {
         background-color: #232323;
         padding: 20px;
+        p::before {
+            content: '"';
+            color: #5474FD;
+            font-size: 65px;
+            display: inline-flex;
+            position: relative;
+            left: -10px;
+            bottom: -33px;
+            font-family: 'Roboto', sans-serif;
+        }
     }
 }
 .search {
@@ -278,6 +286,9 @@ body {
         padding: 0;
         margin-left: auto;
         margin-right: 15%;
+        & a {
+            color: #FFFFFF; 
+        }
     }
 
     &__item {
@@ -302,7 +313,8 @@ body {
     background: #333333;
     display: flex;
     position: relative;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 20px;
 
     &__img-l {
         //position: absolute;
@@ -311,7 +323,7 @@ body {
         position: absolute;
         width: 777px;
         height: 95px;
-        margin-left: 50%;
+        margin-left: 56%;
         transform: translateX(-50%);
     }
 
@@ -329,5 +341,9 @@ body {
     align-content: center;
     padding: 10%;
     background: #232323;
+    flex-direction: column;
+    & div {
+        margin: 1% auto -10%;
+    }
 }
 
