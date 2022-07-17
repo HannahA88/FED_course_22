@@ -234,12 +234,16 @@ body {
     &__five-content {
         display: flex;
         padding: 10% 10%;
-        background: #333333;
+
         & img {
         width: 445px;
-        height: 284px;
-        margin-right: 30px;
+        //height: 284px;
+        align-self: stretch;
         }
+    }
+    &__five-text {
+        background-color: #232323;
+        padding: 20px;
     }
 }
 .search {
