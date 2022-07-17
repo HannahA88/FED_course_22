@@ -164,8 +164,8 @@ body {
             letter-spacing: 1.2px;
             text-transform: uppercase;
             color: #FFFFFF;
-
     }
+    
     &__three {
         background-image: url("/Exam1/assets/imgs/Rectangle\ 414\ 45.png");
         width: 100vw;
@@ -193,8 +193,8 @@ body {
         margin-left: 20%;
         padding: 60px;
         color: #FFFFFF;
-
     }
+
     &__four {
         background-image: url("/Exam1/assets/imgs/Rectangle\ 41445.png");
         :only-child {
@@ -217,9 +217,8 @@ body {
         line-height: 26px;
         text-transform: uppercase;
         color: #FFFFFF;
-
-       
     }
+
     &__five-header {
         flex-wrap: nowrap;
         display: flex;
@@ -341,7 +340,7 @@ body {
     background: #232323;
     flex-direction: column;
     & div {
-        margin: 1% auto -10%;
+        margin: 1% auto;
     }
 }
 
