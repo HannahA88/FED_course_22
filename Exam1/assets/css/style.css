@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+body {
+  margin: 0;
+}
+
+.section__one {
+  background-image: url("/Exam1/assets/imgs/backgr1.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-attachment: fixed;
+}
+.section__one-header {
+  margin: 0 0;
+  padding-top: 20%;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.section__one-parh {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: -10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 6.82px;
+  color: #FFFFFF;
+}
+.section__one-btns {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  height: 53px;
+}
+.section__one-in {
+  padding: 10px;
+  outline: 0;
+  width: 100%;
+}
+.section__one-btn {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  border: 0;
+  background: #5474FD;
+  border: 2px solid #FFFFFF;
+  width: 153px;
+  height: 53px;
+}
+.section__one-scr {
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 2.8px;
+  color: #FFFFFF;
+}
+.section__one-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section__one-search {
+  width: 22px;
+  height: 24px;
+  margin: auto;
+  padding-left: 60%;
+  margin-top: -60%;
+}
+.section__one-text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+.section__two {
+  background-image: url("/Exam1/assets/imgs/backgr2.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.section__two h1 {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.section__two p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1.6px;
+  color: #E8E8E8;
+}
+.section__two-main {
+  width: 1024px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+.section__two-content {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 60px;
+}
+.section__two-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 40%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section__two-img img {
+  width: 350px;
+  height: 220px;
+}
+.section__two-img img + img {
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.section__two-btn {
+  margin-top: 20px;
+  width: 228px;
+  height: 63px;
+  background: #5474FD;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.section__three {
+  background-image: url("/Exam1/assets/imgs/Rectangle 414 45.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 15%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.section__three-text {
+  width: 543px;
+  height: 374px;
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  margin-top: 0;
+  margin-left: 20%;
+  padding: 60px;
+  color: #FFFFFF;
+}
+.section__four {
+  background-image: url("/Exam1/assets/imgs/Rectangle 41445.png");
+}
+.section__four :only-child {
+  margin-left: 40%;
+}
+.section__five {
+  background-image: url("/Exam1/assets/imgs/Rectangle 4142 1.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 15%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.section__five-header {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+}
+.section__five-header h1 {
+  margin: auto;
+}
+.section__five-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10% 10%;
+  background: #333333;
+}
+.section__five-content img {
+  width: 445px;
+  height: 284px;
+  margin-right: 30px;
+}
+
+.search {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.navigation {
+  background: #5474FD;
+  padding: 1.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navigation__logo {
+  width: 186px;
+  height: 20px;
+  display: block;
+  margin-left: 20%;
+}
+.navigation__list {
+  list-style: none;
+  padding: 0;
+  margin-left: auto;
+  margin-right: 15%;
+}
+.navigation__item {
+  display: inline-block;
+  margin-inline: 0.9rem;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.navigation__link {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #2F281E;
+}
+
+.line {
+  background: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.line__img-l {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  width: 777px;
+  height: 95px;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.line__img {
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 10%;
+  background: #232323;
+}
