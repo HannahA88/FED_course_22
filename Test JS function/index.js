@@ -7,4 +7,10 @@ function backgroundToBlue(event) {
     console.log(event.target);
 }
 
+function backgroundToPink(event) {
+    event.target.style.backgroundColor = "pink";
+    console.log(event.target);
+}
+
 container.addEventListener("mouseover", backgroundToBlue);
+container.addEventListener("mouseleave", backgroundToPink);
