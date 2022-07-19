@@ -1,0 +1,1078 @@
+@import './constants.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.shield {
+    & h1 {
+        @include header1;
+    }
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+   /* background: #F7F8FD;
+
+   /* &-btn {
+        background-color: $secondary;
+        color: $white;
+} 
+*/
+}
+.logo {
+    position: absolute;
+    width: 195px;
+    height: 49px;
+    left: 15px;
+    top: 30px;
+}
+
+.navigation {
+    position: absolute;
+    width: 1282px;
+    height: 49px;
+    left: 214px;
+    top: 30px;
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+
+        position: absolute;
+        width: 401px;
+        height: 24px;
+        left: 945px;
+        top: 42px;
+    }
+
+    &__item {
+        height: 24px;
+        list-style-type: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    &__link-h {
+        width: 48px;
+        order: 1;
+        color: #03045E;
+    }
+
+    &__link-a {
+        width: 73px;
+        order: 2;
+        color: #03045E;
+    }
+
+    &__link-s {
+        width: 70px;
+        order: 3;
+        color: #03045E;
+    }
+
+    &__link-c {
+        width: 90px;
+        order: 4;
+        color: #03045E;
+    }
+}
+
+.navigation__btn {
+    position: absolute;
+    width: 120px;
+    height: 49px;
+    left: 110%;
+    top: 52px;
+    background-color: $primary;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    border-radius: 5px;
+
+    &-white {
+        color: $white;
+        
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 40px;  
+        }
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 36px;
+
+    position: absolute;
+    width: 585px;
+    height: 317px;
+    left: 224px;
+    top: 268px;
+
+    &__title {
+        width: 556px;
+        height: 136px;
+        
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 68px;
+        /* or 142% */
+        
+        color: #03045E;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    &__subtitle {
+        width: 556px;
+        height: 48px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: rgba(3, 4, 94, 0.5);
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    &__img {
+        position: absolute;
+        width: 624px;
+        height: 456px;
+        left: 800px;
+        top: 2px;
+    }
+    &__btn-blue {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 17px 38px;
+        gap: 10px;
+        list-style-type: none;
+
+        width: 150px;
+        height: 30px;
+
+        background-color: #0098FF;
+        border-radius: 5px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    &__btn-text {
+        width: 112px;
+        height: 27px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+        color: #FFFFFF;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+}
+
+.search {
+    position: absolute;
+    width: 1280px;
+    height: 134px;
+    left: 25px;
+    top: 510px;
+
+    &__h3 {
+        position: absolute;
+        width: 381px;
+        height: 37px;
+        left: 224px;
+        top: 1006px;
+        
+        /* h3 */
+        
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        /* identical to box height */
+    
+        /* Primary */
+        
+        color: #03045E;
+    }
+    
+    &__btn-blue {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 38px 18px;
+        gap: 10px;
+
+        position: absolute;
+        width: 159px;
+        height: 30px;
+        left: 690px;
+        top: 1110px;
+
+        /* Secondary */
+
+        background: #0098FF;
+        border-radius: 0px 5px 5px 0px;
+
+    }
+    &__btn-text {
+        width: 83px;
+        height: 27px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+        color: #FFFFFF;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    &__email {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 40px 540px 18px 20px;
+        gap: 10px;
+        
+        position: absolute;
+        width: 145px;
+        height: 7px;
+        left: 224px;
+        top: 1110px;
+        
+        /* gray background */
+        
+        background: #F6F6F6;
+        border-radius: 5px;
+    }
+    &__domain {
+        width: 173px;
+        height: 24px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        position: absolute;
+        top: 18px;
+        left: 15px;
+        /* identical to box height */
+
+
+        /* Primary */
+
+        color: #03045E;
+
+        opacity: 0.5;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    &__img {
+        position: absolute;
+        width: 134px;
+        height: 0px;
+        left: 1000px;
+        top: 1100px;
+
+        opacity: 0.1;
+        /* Primary */
+
+        border: 1px solid #03045E;
+        transform: rotate(90deg);
+    }
+    &__group {
+        position: absolute;
+        width: 517px;
+        height: 134px;
+        left: 1200px;
+        top: 1020px;
+    }
+}
+
+.img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 2000px;
+
+    /* gray background */
+
+    //background: #F6F6F6;
+    /*opacity: 0.4;*/
+    
+    &__services {
+        position: absolute;
+        width: 243px;
+        height: 46px;
+        left: 780px;
+        top: 100px;
+
+        /* h2 */
+
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        /* identical to box height */
+
+        /* Primary */
+
+        color: #03045E;
+    }
+
+    &__web {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 30px;
+
+        position: absolute;
+        width: 407px;
+        height: 255px;
+        left: 224px;
+        top: 350px;
+     }
+    &__web-first {
+        width: 100px;
+        height: 100px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    &__web-first-text {
+        width: 193px;
+        height: 23px;
+
+        /* h5 */
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+
+        /* Primary */
+
+        color: #03045E;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    &__web-first-parh {
+        width: 407px;
+        height: 72px;
+
+        /* paragraph */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+
+        /* Primary */
+
+        color: #03045E;
+
+        opacity: 0.5;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    &__VPS {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 30px;
+
+        position: absolute;
+        width: 407px;
+        height: 255px;
+        left: 661px;
+        top: 350px;
+    }
+    &__VPS-second {
+        width: 100px;
+        height: 100px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    &__VPS-second-text {
+        width: 124px;
+        height: 23px;
+
+        /* h5 */
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+
+        /* Primary */
+
+        color: #03045E;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    &__VPS-second-parh {
+        width: 407px;
+        height: 72px;
+
+        /* paragraph */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+
+        /* Primary */
+
+        color: #03045E;
+
+        opacity: 0.5;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+    }
+    &__server {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 30px;
+
+        position: absolute;
+        width: 407px;
+        height: 255px;
+        left: 1098px;
+        top: 350px;
+    }
+    &__server-third {
+        width: 100px;
+        height: 100px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    &__server-third-text {
+        width: 166px;
+        height: 23px;
+
+        /* h5 */
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+
+        /* Primary */
+
+        color: #03045E;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    &__server-third-parah {
+        width: 407px;
+        height: 72px;
+
+        /* paragraph */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+
+        /* Primary */
+
+        color: #03045E;
+
+        opacity: 0.5;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    &__cloud {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 30px;
+
+        position: absolute;
+        width: 407px;
+        height: 255px;
+        left: 224px;
+        top: 700px;
+    }
+    &__cloud-fourth {
+        width: 100px;
+        height: 100px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    &__cloud-fourth-text {
+        width: 135px;
+        height: 23px;
+
+        /* h5 */
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+
+        /* Primary */
+
+        color: #03045E;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+    }
+    &__cloud-fourth-parh {
+        width: 407px;
+        height: 72px;
+
+        /* paragraph */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+
+        /* Primary */
+
+        color: #03045E;
+
+        opacity: 0.5;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    &__names {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 30px;
+
+        position: absolute;
+        width: 407px;
+        height: 255px;
+        left: 661px;
+        top: 700px;
+    }
+    &__names-fifth {
+        width: 100px;
+        height: 100px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    &__names-fifth-text {
+        width: 143px;
+        height: 23px;
+
+        /* h5 */
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+
+        /* Primary */
+
+        color: #03045E;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    &__names-fifth-parh {
+        width: 407px;
+        height: 72px;
+
+        /* paragraph */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+
+        /* Primary */
+
+        color: #03045E;
+
+        opacity: 0.5;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    &__keys {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 30px;
+
+        position: absolute;
+        width: 407px;
+        height: 255px;
+        left: 1098px;
+        top: 700px;
+
+    }
+    &__keys-six {
+        width: 100px;
+        height: 100px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    &__keys-six-text {
+        width: 122px;
+        height: 23px;
+
+        /* h5 */
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+
+
+        /* Primary */
+
+        color: #03045E;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    &__keys-six-parh {
+        width: 407px;
+        height: 72px;
+
+        /* paragraph */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+
+        /* Primary */
+
+        color: #03045E;
+
+        opacity: 0.5;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+}
+
+.clients {
+
+    &__h2 {
+        position: absolute;
+        width: 435px;
+        height: 46px;
+        left: 800px;
+        top: 3600px;
+
+        /* h2 */
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        /* identical to box height */
+
+
+        /* Primary */
+
+        color: #03045E;
+    }
+    &__raw-first {
+        position: absolute;
+        width: 407px;
+        height: 21px;
+        left: 60px;
+        top: 1px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        text-align: center;
+
+        /* Primary */
+
+        //background: #F6F6F6;
+       
+    }
+    &__raw-first-parh {
+        position: absolute;
+        width: 327px;
+        height: 81px;
+        left: 264px;
+        top: 3900px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+
+        /* Primary */
+
+        color: #03045E;
+        opacity: 0.5;
+    }
+    &__raw-first-h5 {
+        position: absolute;
+        width: 120px;
+        height: 23px;
+        left: 367px;
+        top: 4000px;
+
+        /* h5 */
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+
+
+        /* Primary */
+
+        color: #03045E;
+    }
+    &__raw-first-p {
+        position: absolute;
+        width: 407px;
+        height: 21px;
+        left: 224px;
+        top: 4050px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        text-align: center;
+
+        /* Primary */
+
+        color: #03045E;
+
+        opacity: 0.5;
+    }
+
+    &__raw-second {
+        position: absolute;
+        width: 406px;
+        height: 263px;
+        left: 130px;
+        top: 1px;
+
+        /* gray background */
+
+        //background: #F6F6F6;
+       
+    }
+    &__raw-second-parh {
+        position: absolute;
+        width: 327px;
+        height: 81px;
+        left: 703px;
+        top: 3900px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+
+        /* Primary */
+
+        color: #03045E;
+        opacity: 0.4;
+    }
+    &__raw-second-h5 {
+        position: absolute;
+        width: 120px;
+        height: 23px;
+        left: 806px;
+        top: 4000px;
+
+        /* h5 */
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+
+        /* Primary */
+
+        color: #03045E;
+    }
+    &__raw-second-p {
+        position: absolute;
+        width: 407px;
+        height: 21px;
+        left: 661px;
+        top: 4050px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        /* Primary */
+        
+        color: #03045E;
+        
+        opacity: 0.5;
+    }
+
+    &__raw-third {
+        position: absolute;
+        width: 407px;
+        height: 263px;
+        left: 150px;
+        top: 1px;
+       /*background: #F6F6F6;
+       */
+       
+    }
+    &__raw-third-parh {
+        position: absolute;
+        width: 327px;
+        height: 81px;
+        left: 1138px;
+        top: 3900px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+
+        /* Primary */
+
+        color: #03045E;
+        opacity: 0.4;
+
+        /*opacity: 0.5;*/
+    }
+    &__raw-third-h5 {
+        position: absolute;
+        width: 120px;
+        height: 23px;
+        left: 1242px;
+        top: 4000px;
+
+        /* h5 */
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #03045E;
+    }
+    &__raw-third-p {
+        position: absolute;
+        width: 407px;
+        height: 21px;
+        left: 1098px;
+        top: 4050px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        text-align: center;
+
+        /* Primary */
+
+        color: #03045E;
+
+        opacity: 0.5;
+    }
+    &__img {
+        position: absolute;
+        width: 100px;
+        height: 8px;
+        left: 950px;
+        top: 4100px;
+    }
+}
