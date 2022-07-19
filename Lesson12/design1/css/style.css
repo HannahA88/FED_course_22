@@ -13,7 +13,7 @@ body {
     float: right;
     position: absolute;
     left: 260px;
-    top: 130px;
+    top: 110px;
     color: lightslategray;
 }
 
@@ -21,7 +21,7 @@ body {
     float: right;
     position: absolute;
     left: 260px;
-    top: 175px;
+    top: 155px;
     color: lightslategray;
 }
 
@@ -29,7 +29,7 @@ body {
     float: right;
     position: absolute;
     left: 260px;
-    top: 220px;
+    top: 200px;
     color: lightslategray;
 }
 
@@ -37,7 +37,7 @@ body {
     float: right;
     position: absolute;
     left: 260px;
-    top: 265px;
+    top: 245px;
     color: lightslategray;
 }
 
@@ -45,7 +45,7 @@ body {
     float: right;
     position: absolute;
     left: 260px;
-    top: 310px;
+    top: 290px;
     color: lightslategray;
 }
 
@@ -65,7 +65,7 @@ button {
     background-color: lightgray;
     border: none;
     border-radius: 5px;
-    font-size: 2em;
+    /*font-size: 2em;*/
     font-weight: 140;
 }
 
