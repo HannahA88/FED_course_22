@@ -7,9 +7,7 @@ let LCD = 0;
 if (numberOne > numberTwo) {
     smaller = numberTwo;
     bigger = numberOne;
-}
-
-else {
+} else {
     smaller = numberOne;
     bigger = numberTwo;
 }
