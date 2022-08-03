@@ -8,8 +8,9 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
 .btns {
-  font-size: 2rem;
+  font-size: 1.5rem;
   border: 1px, black;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -23,103 +24,127 @@ body {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  -ms-grid-columns: (100px)[4];
-  grid-template-columns: repeat(4, 100px);
-  -ms-grid-rows: minmax(120px, auto) (100px)[5];
-  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  -ms-grid-columns: (90px)[4];
+  grid-template-columns: repeat(4, 90px);
+  -ms-grid-rows: minmax(90px, auto) (90px)[5];
+  grid-template-rows: minmax(90px, auto) repeat(5, 90px);
 }
+
 .btns > *:nth-child(1) {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
 }
+
 .btns > *:nth-child(2) {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
 }
+
 .btns > *:nth-child(3) {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
 }
+
 .btns > *:nth-child(4) {
   -ms-grid-row: 1;
   -ms-grid-column: 4;
 }
+
 .btns > *:nth-child(5) {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
 }
+
 .btns > *:nth-child(6) {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
 }
+
 .btns > *:nth-child(7) {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
 }
+
 .btns > *:nth-child(8) {
   -ms-grid-row: 2;
   -ms-grid-column: 4;
 }
+
 .btns > *:nth-child(9) {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
 }
+
 .btns > *:nth-child(10) {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
 }
+
 .btns > *:nth-child(11) {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
 }
+
 .btns > *:nth-child(12) {
   -ms-grid-row: 3;
   -ms-grid-column: 4;
 }
+
 .btns > *:nth-child(13) {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
 }
+
 .btns > *:nth-child(14) {
   -ms-grid-row: 4;
   -ms-grid-column: 2;
 }
+
 .btns > *:nth-child(15) {
   -ms-grid-row: 4;
   -ms-grid-column: 3;
 }
+
 .btns > *:nth-child(16) {
   -ms-grid-row: 4;
   -ms-grid-column: 4;
 }
+
 .btns > *:nth-child(17) {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
 }
+
 .btns > *:nth-child(18) {
   -ms-grid-row: 5;
   -ms-grid-column: 2;
 }
+
 .btns > *:nth-child(19) {
   -ms-grid-row: 5;
   -ms-grid-column: 3;
 }
+
 .btns > *:nth-child(20) {
   -ms-grid-row: 5;
   -ms-grid-column: 4;
 }
+
 .btns > *:nth-child(21) {
   -ms-grid-row: 6;
   -ms-grid-column: 1;
 }
+
 .btns > *:nth-child(22) {
   -ms-grid-row: 6;
   -ms-grid-column: 2;
 }
+
 .btns > *:nth-child(23) {
   -ms-grid-row: 6;
   -ms-grid-column: 3;
 }
+
 .btns > *:nth-child(24) {
   -ms-grid-row: 6;
   -ms-grid-column: 4;
