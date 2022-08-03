@@ -7,7 +7,7 @@
   body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #CBCE91FF, #EA738DFF);
+    background: linear-gradient(to right, rgb(217, 242, 248), rgb(65, 81, 93));
     }
 
     .calculator-grid {
@@ -15,31 +15,35 @@
       justify-content: center;
       align-content: center;
       min-height: 100vh;
-      grid-template-columns: repeat(4, 100px);
-      grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+      grid-template-columns: repeat(4, 90px);
+      grid-template-rows: minmax(90px, auto) repeat(5, 90px);
       }
 
       .calculator-grid > button {
         cursor: pointer;
-        font-size: 2rem;
+        font-size: 1.5rem;
         border: 1px, solid #FFFFFF;
         outline: none;
         background-color: rbga(255, 255, 255, 0.75);
+        border-radius: 8px;
       }
 
         .calculator-grid > button:hover {
-          background-color: #a9a9a9;
+          background-color: #dad9d9;
+          border-color: transparent;
         }
 
         .span-two {
           grid-column: span 2;
-          color: #adf802;
-        //background-color: purple;
-        }
+          color: #060937;
+          border-color: transparent;
+          // background: linear-gradient(to right, rgb(217, 242, 248), rgb(65, 81, 93));
+          background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+          box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+      }
 
         .output{
           grid-column: 1 / -1;
-          background-color: rgba(0, 0, 0, 0.75);
           display: flex;
           align-items: flex-end;
           justify-content: space-around;
@@ -47,6 +51,12 @@
           padding: 10px;
           word-wrap: break-word;
           word-break: break-all;
+          border-radius: 8px;
+          background-image: linear-gradient(to left, #29323c, #485563, #2b5876, #4e4376);
+          // box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+          border: 3px, solid, black;
+          border-color: #060937;
+          margin-top: 0.5%;
         }
 
         .output .previous-operand{
@@ -55,6 +65,6 @@
         }
 
         .output .current-operand{
-          color: white;
+          color: rgb(242, 246, 36);
           font-size: 2.5rem;
         }
