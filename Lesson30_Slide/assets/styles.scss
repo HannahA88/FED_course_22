@@ -1,0 +1,42 @@
+
+
+body {
+    background: #0F1320;
+}
+
+.main {
+    h1 {
+        color: white;
+        margin-left: 1%;
+}
+    &__buttons{
+        color: white;
+        margin-bottom: 5%;  
+        margin-left: 1%;
+    }
+    // &__button-first {
+        
+    // }
+
+    // &__button-second {
+       
+    // }
+    &__section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10%;
+
+        div {
+            background: #0D0B16;
+            border-radius: 25px;
+            width: 20%;
+            padding: 2%;
+        }
+
+        h5, p {
+            color: white;
+        }
+
+    }
+}

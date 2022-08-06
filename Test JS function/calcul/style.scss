@@ -1,0 +1,42 @@
+body{
+   margin: 0;
+}
+
+.calculator{
+    background: linear-gradient(to right, gold, grey);
+    width: 100vw;
+    height: 100vh;
+
+    // &__main{
+    
+        
+    // }
+    // &__screen{
+       
+        
+    // }
+    // &__screen-result {
+        
+    // }
+}
+
+.btns{
+    font-size: 1.5rem;
+    border: 1px, black;
+    box-sizing: border-box;
+    outline: none;
+    background-color: light;
+    opacity: 0.75;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 90px);
+    grid-template-rows: minmax(90px, auto) repeat(5, 90px);
+}
+
+.btns > button:hover {
+    background-color: #a9a9a9;
+  }
+    
+
+
