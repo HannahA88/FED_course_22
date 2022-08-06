@@ -8,8 +8,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(#29323c), color-stop(#485563), color-stop(#2b5876), to(#4e4376));
-  background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+  background-image: -webkit-gradient(linear, left top, right top, from(#f30ba2), color-stop(#0cee5b), color-stop(#f65c03), to(#76435d));
+  background-image: linear-gradient(to right, #f30ba2, #0cee5b, #f65c03, #76435d);
 }
 
 .calculator-grid {
