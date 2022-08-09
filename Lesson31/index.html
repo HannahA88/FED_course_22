@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #posts {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .post {
+            /* height: 100px; */
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            background-color: antiquewhite;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .post__detail {
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="posts">
+            <div class="post">
+                <div class="post__detail">
+                <h2>Test</h2>
+                <p>Ex nihilo nihil fit</p>
+            </div>
+            <div class="post__user">
+                <h2>Hanna</h2>
+                <span>CWW</span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script>
+        const API = 'https://jsonplaceholder.typicode.com';
+
+        const postElement = document.querySelector('#posts');
+        let page = 0;
+
+        fetch(`${API}/posts`)
+        .then(response => {
+            return response.json();
+            console.log(response)
+        }) 
+
+        .then(posts => {
+            for (let index = 0 + page * 10; index < 10 + page * 10; index++) {
+                const element = posts[index];
+                console.log(element);
+                let post = document.createElement('div');
+                post.classList += 'post';
+
+                let postDetail = document.createElement('div');
+                let postUser = document.createElement('div');
+                postDetail.classList += 'post__detail';
+                postUser.classList += 'post__user';
+
+                let postTitle = document.createElement('h2');
+                let postText = document.createElement('p');
+
+                postTitle.innerText = element.title;
+                postText.innerText = element.body;
+
+                postDetail.appendChild(postTitle);
+                postDetail.appendChild(postText);
+
+                post.appendChild(postDetail);
+                post.appendChild(postUser);
+
+                postElement.appendChild(post);
+            }
+        })
+        .catch(error => console.error(error));
+    </script>
+</body>
+</html>
