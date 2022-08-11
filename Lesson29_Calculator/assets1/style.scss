@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     // background: linear-gradient(to right, rgb(217, 242, 248), rgb(65, 81, 93));
-    background-image: linear-gradient(to right, #f30ba2, #0cee5b, #f65c03, #76435d);
+    background: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
     }
 
     .calculator-grid {
@@ -38,7 +38,7 @@
           grid-column: span 2;
           color: #23042a;
           border-color: transparent;
-          background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+          background: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
           box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
       }
 
@@ -52,7 +52,7 @@
           word-wrap: break-word;
           word-break: break-all;
           border-radius: 8px;
-          background-image: linear-gradient(to left, #29323c, #485563, #2b5876, #4e4376);
+          background: linear-gradient(to left, #29323c, #485563, #2b5876, #4e4376);
           border: 3px, solid, black;
           border-color: #060937;
           margin-top: 0.5%;

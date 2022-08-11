@@ -8,8 +8,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(#f30ba2), color-stop(#0cee5b), color-stop(#f65c03), to(#76435d));
-  background-image: linear-gradient(to right, #f30ba2, #0cee5b, #f65c03, #76435d);
+  background: -webkit-gradient(linear, left top, right top, from(#29323c), color-stop(#485563), color-stop(#2b5876), to(#4e4376));
+  background: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
 }
 
 .calculator-grid {
@@ -166,8 +166,8 @@ body {
   grid-column: span 2;
   color: #23042a;
   border-color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, from(#29323c), color-stop(#485563), color-stop(#2b5876), to(#4e4376));
-  background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+  background: -webkit-gradient(linear, left top, right top, from(#29323c), color-stop(#485563), color-stop(#2b5876), to(#4e4376));
+  background: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
   -webkit-box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
           box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
@@ -190,8 +190,8 @@ body {
   word-wrap: break-word;
   word-break: break-all;
   border-radius: 8px;
-  background-image: -webkit-gradient(linear, right top, left top, from(#29323c), color-stop(#485563), color-stop(#2b5876), to(#4e4376));
-  background-image: linear-gradient(to left, #29323c, #485563, #2b5876, #4e4376);
+  background: -webkit-gradient(linear, right top, left top, from(#29323c), color-stop(#485563), color-stop(#2b5876), to(#4e4376));
+  background: linear-gradient(to left, #29323c, #485563, #2b5876, #4e4376);
   border: 3px, solid, black;
   border-color: #060937;
   margin-top: 0.5%;
