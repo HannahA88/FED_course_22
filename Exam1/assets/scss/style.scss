@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+}
+
+.section {
+    &__one {
+        background-image: url("/Exam1/assets/imgs/backgr1.png");
+        width: 100vw;
+        height: 100vh;
+        background-size:cover;
+        background-blend-mode: multiply;
+        background-position: center;
+        background-attachment: fixed;
+    }
+   
+    &__one-header {
+        margin: 0 0;
+        padding-top: 20%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 4.8px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__one-parh {
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: -10%;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 6.82px;
+        color: #FFFFFF;
+    }
+    &__one-btns {
+        align-self: center;
+        text-align: center;
+        background-color: #FFFFFF;
+        width: 60%;
+        display: flex;
+        margin: auto;
+        height: 53px;
+    
+    }
+    &__one-in {
+        padding: 10px;
+        outline: 0;
+        width: 100%;
+    }
+    &__one-btn {
+        box-sizing: border-box;
+        padding: 10px;
+        border: 0;
+        background: #5474FD;
+        border: 2px solid #FFFFFF;
+        width: 153px;
+        height: 53px; 
+        align-content: center;  
+        display: flex;
+
+    }
+    &__one-scr {
+        text-align: center;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        align-items: center;
+        letter-spacing: 2.8px;
+        color: #FFFFFF;
+    }
+    &__one-img {
+        display: block;
+        margin-left: auto;   
+        margin-right: auto;  
+    }
+    &__one-search {
+        width: 22px;
+        height: 24px;
+        margin: auto;
+    }
+    &__one-text {
+        align-content: center;
+    }
+    &__two {
+        background-image: url("/Exam1/assets/imgs/backgr2.png");
+        width: 100vw;
+        height: 100vh;
+        background-size:cover;
+        background-blend-mode: multiply;
+        background-position: center;
+        background-attachment: fixed; 
+        display: flex;  
+        & h1 {
+            font-family: 'Aleo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 26px;
+            color: #FFFFFF;
+        }
+        & p {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 26px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 1.6px;
+            color: #E8E8E8;
+        }   
+    }
+    &__two-main {
+        width: 1024px;
+        margin: auto;
+        display: flex;
+        align-content: center;
+    }
+
+    &__two-content {
+        width: 50%;
+        display: flex;
+        justify-content: center; 
+        align-content: center; 
+        flex-direction: column;
+        padding-right: 60px;
+    }
+
+    &__two-img {
+        display: flex;
+        justify-content: center; 
+        //align-content: center; 
+        width: 100%;  
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 5%;
+
+        & img {
+            width: 100%;
+            height: auto;
+            flex-wrap: wrap;
+            
+        }
+       & img+img {
+            margin-left: 10%;
+            margin-top: 2%;
+        }
+    }
+        &__two-btn {
+            margin-top: 20px;
+            width: 228px;
+            height: 63px;
+            background: #5474FD;
+            font-family: 'Aleo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+    }
+    
+    &__three {
+        background-image: url("/Exam1/assets/imgs/Rectangle\ 414\ 45.png");
+        width: 100vw;
+        height: 100vh;
+        background-size:cover;
+        background-blend-mode: multiply;
+        background-position: center;
+        background-attachment: fixed;
+        padding-top: 15%;
+        //flex-wrap: wrap;
+        display: flex;  
+        padding-bottom: 10%;  
+        margin: 0;    
+       
+    }
+    &__three-text {
+        width: 30%;
+        height: 100%;
+        background: #232323;
+        mix-blend-mode: normal;
+        opacity: 0.9;
+        margin-top: 0;
+        margin-left: 20%;
+        //margin-bottom: 20%;
+        //padding: 2%;
+        color: #FFFFFF;
+        flex-wrap: wrap;
+        display: flex;
+        //max-width: 100%;
+        //max-height: 30%;
+        //text-size-adjust: auto;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        //font-size: 20px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        & p {
+            margin-bottom: -10%;
+            display: flex;
+            margin-bottom: -10%;
+        }
+        & h1 {
+            margin: 0;
+            display: flex;
+            align-self: center;
+            margin-bottom: -10%;
+        }
+        & h5 {
+            margin: 5% 0;
+            display: flex;
+            justify-content: center;
+            margin-bottom: -10%;
+        }
+    }
+
+    &__four {
+        background-image: url("/Exam1/assets/imgs/Rectangle\ 41445.png");
+        :only-child {
+            margin-left: 40%;
+            width: 30%;
+            height: 100%;
+        }
+    }
+    &__five {
+        background-image: url("/Exam1/assets/imgs/Rectangle\ 4142\ 1.png");
+        width: 100vw;
+        height: 100vh;
+        background-size:cover;
+        background-blend-mode: multiply;
+        background-position: center;
+        background-attachment: fixed;
+        padding-top: 15%;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-bottom: 30%;
+    }
+
+    &__five-header {
+        flex-wrap: nowrap;
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        & h1 {
+            margin: auto;
+        }
+    }
+    &__five-content {
+        display: flex;
+        padding: 10% 10%;
+        flex-wrap: wrap;
+
+        & img {
+        width: 100%;
+        height: auto;
+        //height: 284px;
+        //align-self: stretch;
+        }
+    }
+    &__five-text {
+        background-color: #232323;
+        padding: 20px;
+        p::before {
+            content: '"';
+            color: #5474FD;
+            font-size: 65px;
+            display: inline-flex;
+            position: relative;
+            left: -10px;
+            bottom: -33px;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+}
+.search {
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.navigation {
+    background: #5474FD;
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+
+    &__logo {
+        width: 186px;
+        height: 20px;
+        display: block;
+        margin-left: 20%;
+
+    }
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin-left: auto;
+        margin-right: 15%;
+        & a {
+            color: #FFFFFF; 
+        }
+    }
+
+    &__item {
+        display: inline-block;
+        margin-inline: 0.9rem;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+
+    &__link {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #2F281E;
+    }
+}
+
+.line {
+    background: #333333;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding-top: 20px;
+
+    &__img-l {
+        box-sizing: border-box;
+        position: absolute;
+        width: 60%;
+        height: 95px;
+        margin-left: 57%;
+        transform: translateX(-50%);
+        display: block;
+        text-align: center;
+        flex-wrap: wrap;
+        padding-bottom: 10%;
+
+        & img {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 10%;
+        }
+    }
+
+    &__img {
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 100px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 20px;
+    }
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10%;
+    background: #232323;
+    flex-direction: column;
+    & div {
+        margin: 1% auto;
+    }
+}
+
