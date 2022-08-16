@@ -217,22 +217,7 @@ body {
     color: #fff;
 }
 
-form {
-    
-}
-
 input {
-    /* height: 35px;
-    width: 200px;
-    display: flex;
-    display: inline-block;
-    border-radius: 50px;
-    color: #595959;
-    border-color: #595959;
-    background-image: linear-gradient(to right,  #f9f6f6, #FB6D3A);
-    color: #1e2939; 
-    box-shadow: 5px 5px 2px -2px #a5a5a5; */
-
 
     border-radius: 50px;
     box-shadow: 5px 5px 2px -2px #a5a5a5;
