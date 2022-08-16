@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
-    background-color: #fff;
+    background-color: rgb(253, 253, 253);
     margin: 40px auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
@@ -32,7 +32,7 @@ body {
 }
 .about-me-profession {
     font-style: normal;
-    font-size: 14px;
+    font-size: 22px;
     font-weight: bold;
     line-height: 17px;
     color: #000;
@@ -136,7 +136,7 @@ body {
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-    color: #000;
+    color: #1e2939;
 }
 .my-education-university {
     font-style: normal;
@@ -180,7 +180,7 @@ body {
     margin-right: 5px;
 }
 .contacts-section-link {
-    color: #565e6a;
+    color: #e9edf4;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -215,4 +215,47 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #fff;
+}
+
+form {
+    
+}
+
+input {
+    /* height: 35px;
+    width: 200px;
+    display: flex;
+    display: inline-block;
+    border-radius: 50px;
+    color: #595959;
+    border-color: #595959;
+    background-image: linear-gradient(to right,  #f9f6f6, #FB6D3A);
+    color: #1e2939; 
+    box-shadow: 5px 5px 2px -2px #a5a5a5; */
+
+
+    border-radius: 50px;
+    box-shadow: 5px 5px 2px -2px #a5a5a5;
+    color: rgb(0, 0, 0);
+    height: 65px;
+    line-height: 70px;
+    margin: 10px;
+    padding-left: 20px;
+    width: 160px;
+    background-color: #FB6D3A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.links {
+    display: inline-block;
+}
+
+.soft-skills-list-item {
+    margin-left: 1%;
 }
